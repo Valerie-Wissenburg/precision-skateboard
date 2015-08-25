@@ -150,6 +150,7 @@ textarea {
 
 select {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 100%;
 }
 .row {
@@ -264,6 +265,8 @@ select {
 	float: left;
 }
 =======
+=======
+>>>>>>> origin/master
   width: 100%; }
 
 .row {
@@ -321,6 +324,9 @@ select {
 .columns +
 .columns.end {
   float: left; }
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
 @media only screen {
@@ -7183,4 +7189,7 @@ blockquote, blockquote p {
 	transition: all .5s ease-in-out;
 }
 >>>>>>> origin/master
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
