@@ -149,6 +149,124 @@ textarea {
   min-height: 50px; }
 
 select {
+<<<<<<< HEAD
+<<<<<<< HEAD
+	width: 100%;
+}
+.row {
+<<<<<<< HEAD  margin: 0 auto;
+	max-width: 62.5em;
+	width: 100%;
+}
+.row:before, .row:after {
+	content: " ";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
+.row.collapse > .column,  .row.collapse > .columns {
+	padding-left: 0;
+	padding-right: 0;
+}
+.row.collapse .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.row .row {
+	margin: 0 -0.9375em;
+	max-width: none;
+	width: auto;
+}
+.row .row:before, .row .row:after {
+	content: " ";
+	display: table;
+}
+.row .row:after {
+	clear: both;
+}
+.row .row.collapse {
+	margin: 0;
+	max-width: none;
+	width: auto;
+}
+.row .row.collapse:before, .row .row.collapse:after {
+	content: " ";
+	display: table;
+}
+.row .row.collapse:after {
+	clear: both;
+}
+.column, .columns {
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
+	width: 100%;
+	float: left;
+}
+.column + .column:last-child, .columns + .column:last-child, .column + .columns:last-child, .columns + .columns:last-child {
+	float: right;
+}
+.column + .column.end, .columns + .column.end, .column + .columns.end, .columns + .columns.end {
+	float: left;
+}
+=======  margin: 0 auto;
+ max-width: 62.5rem;
+ width: 100%;
+}
+.row:before, .row:after {
+	content: " ";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
+.row.collapse > .column, .row.collapse > .columns {
+	padding-left: 0;
+	padding-right: 0;
+}
+.row.collapse .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.row .row {
+	margin: 0 -0.9375rem;
+	max-width: none;
+	width: auto;
+}
+.row .row:before, .row .row:after {
+	content: " ";
+	display: table;
+}
+.row .row:after {
+	clear: both;
+}
+.row .row.collapse {
+	margin: 0;
+	max-width: none;
+	width: auto;
+}
+.row .row.collapse:before, .row .row.collapse:after {
+	content: " ";
+	display: table;
+}
+.row .row.collapse:after {
+	clear: both;
+}
+.column, .columns {
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	width: 100%;
+	float: left;
+}
+.column + .column:last-child, .columns + .column:last-child, .column + .columns:last-child, .columns + .columns:last-child {
+	float: right;
+}
+.column + .column.end, .columns + .column.end, .column + .columns.end, .columns + .columns.end {
+	float: left;
+}
+=======
+=======
+>>>>>>> origin/master
   width: 100%; }
 
 .row {
@@ -206,6 +324,10 @@ select {
 .columns +
 .columns.end {
   float: left; }
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
 
 @media only screen {
   .small-push-0 {
@@ -6985,6 +7107,8 @@ blockquote, blockquote p {
 }
 }
 >>>>>>> origin/master 
+<<<<<<< HEAD
+=======
 
 
 
@@ -7064,4 +7188,8 @@ blockquote, blockquote p {
 	transform: scale(1.5);
 	transition: all .5s ease-in-out;
 }
+>>>>>>> origin/master
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
