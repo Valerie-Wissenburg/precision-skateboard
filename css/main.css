@@ -1,10 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* === OUR CUSTOM CSS
-==================== */
+/* === OUR CUSTOM CSS ================
+=================================== */
 
-  /* THIS IS THE CODE FOR OUR FOOTER */
+/* THIS IS FOR NAV BAR */
+
+/* THIS IS THE CSS FOR OUR FOOTER */
   @charset "UTF-8";
 .hero {
 	background: url("http://www.banksy-wallpaper.com/wallpapers/800x600/10-i-am-father.jpg") no-repeat center center;
@@ -105,6 +107,8 @@
 }
 }
 /* END OF FOOTER CODE */
+
+
 
 /* ==== TEAM RIDERS PAGE
 ====================== */ 
