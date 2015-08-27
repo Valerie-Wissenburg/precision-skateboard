@@ -101,7 +101,7 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   transform: rotate(135deg);
 }
 
-.right {
+.right-arrow {
   display: inline-block;
   width: 4em;
   height: 4em;
@@ -110,7 +110,7 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   margin-left: 1.5em;
 }
 
-.right:after {
+.right-arrow:after {
   content: '';
 	display: inline-block;
   margin-top: 1.05em;
