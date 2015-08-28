@@ -1,40 +1,9 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Contact Page</title>
 <link rel="stylesheet" href="css/foundation.css" />
 <link rel="stylesheet" href="css/main.css" />
 <script src="js/vendor/modernizr.js"></script>
-
-<!-- where does all of this go? it makes the map work but i'm not sure if it goes here or in our css document -->
-<style type="text/css">
-            #map {
-                width: 500px;
-                height: 350px;
-            }
-        </style>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzKC_Mhyh6vRgQfDDGnZMyfufQopivILU&sensor=false"></script>
         
-        <script type="text/javascript">
-            google.maps.event.addDomListener(window, 'load', init);
-        
-            function init() {
-                var mapOptions = {
-                    zoom: 17,
-                    center: new google.maps.LatLng(40.823857, -96.691896),
-                    styles: [{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#e0efef"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"hue":"#1900ff"},{"color":"#c0e8e8"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":700}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#7dcdcd"}]}]
-                };
-                var mapElement = document.getElementById('map');
-                var map = new google.maps.Map(mapElement, mapOptions);
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.823857, -96.691896),
-                    map: map,
-                    title: 'PRECISION SKATEBOARDS'
-                });
-            }
-        </script>
 </head>
 
 
@@ -118,11 +87,13 @@
           <h5>Stop By</h5>
            
          
-        <div id="map"></div>
-          <p>
-            2005 'Y' Street<br/>
-            Lincoln, NE 68503
-          </p>
+        <div class="large-6 medium-8 small-12">
+        	<div id="map"></div>
+          	<p>
+           		2005 'Y' Street<br/>
+            	Lincoln, NE 68503
+          	</p>
+        	</div>
         </div>
          
       </div>
@@ -181,6 +152,8 @@
 <script src="js/foundation.min.js"></script> 
 <script src="js/foundation/foundation.topbar.js"></script>
 <script src="js/foundation/foundation.abide.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzKC_Mhyh6vRgQfDDGnZMyfufQopivILU&sensor=false"></script>
+<script src="js/map.js"></script>
 <script>
       $(document).foundation();
     </script>
