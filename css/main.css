@@ -10,220 +10,140 @@
 
 /* THIS IS FOR THE ARROWS */
 body {
-  text-align: center;
-  margin: 6em 0 0 0;
-  padding: 0;
+	text-align: center;
+	margin: 6em 0 0 0;
+	padding: 0;
 }
-
 div {
-  display: inline-block;
-  vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
-
 a {
-  display: inline-block;
-  border-radius: 50%;
+	display: inline-block;
+	border-radius: 50%;
 }
-
-a:hover .left, a:hover .top, a:hover .bottom, a:hover .right{
-  border: 0.5em solid #e74c3c;
+a:hover .left, a:hover .top, a:hover .bottom, a:hover .right {
+	border: 0.5em solid #e74c3c;
 }
-
 a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:after {
-  border-top: 0.5em solid #e74c3c;
-  border-right: 0.5em solid #e74c3c;
+	border-top: 0.5em solid #e74c3c;
+	border-right: 0.5em solid #e74c3c;
 }
-
 .left {
-  display: inline-block;
-  width: 4em;
-  height: 4em;
-  border: 0.5em solid #333;
-  border-radius: 50%;
-  margin-right: 1.5em;
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	border: 0.5em solid #333;
+	border-radius: 50%;
+	margin-right: 1.5em;
 }
-
 .left:after {
-  content: '';
+	content: '';
 	display: inline-block;
-  margin-top: 1.05em;
-  margin-left: 0.6em;
-  width: 1.4em;
-  height: 1.4em;
-  border-top: 0.5em solid #333;
-  border-right: 0.5em solid #333;
-  -moz-transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+	margin-top: 1.05em;
+	margin-left: 0.6em;
+	width: 1.4em;
+	height: 1.4em;
+	border-top: 0.5em solid #333;
+	border-right: 0.5em solid #333;
+	-moz-transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
 }
-
 .top {
-  display: inline-block;
-  width: 4em;
-  height: 4em;
-  border: 0.5em solid #333;
-  border-radius: 50%;
-  margin-right: 0.75em;
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	border: 0.5em solid #333;
+	border-radius: 50%;
+	margin-right: 0.75em;
 }
-
 .top:after {
-  content: '';
+	content: '';
 	display: inline-block;
-  margin-top: 1.4em;
-  width: 1.4em;
-  height: 1.4em;
-  border-top: 0.5em solid #333;
-  border-right: 0.5em solid #333;
-  -moz-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+	margin-top: 1.4em;
+	width: 1.4em;
+	height: 1.4em;
+	border-top: 0.5em solid #333;
+	border-right: 0.5em solid #333;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
-
 .bottom {
-  display: inline-block;
-  width: 4em;
-  height: 4em;
-  border: 0.5em solid #333;
-  border-radius: 50%;
-  margin-left: 0.75em;
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	border: 0.5em solid #333;
+	border-radius: 50%;
+	margin-left: 0.75em;
 }
-
 .bottom:after {
-  content: '';
+	content: '';
 	display: inline-block;
-  margin-top: 0.6em;
-  width: 1.4em;
-  height: 1.4em;
-  border-top: 0.5em solid #333;
-  border-right: 0.5em solid #333;
-  -moz-transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
+	margin-top: 0.6em;
+	width: 1.4em;
+	height: 1.4em;
+	border-top: 0.5em solid #333;
+	border-right: 0.5em solid #333;
+	-moz-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
 }
-
 .right-arrow {
-  display: inline-block;
-  width: 4em;
-  height: 4em;
-  border: 0.5em solid #333;
-  border-radius: 50%;
-  margin-left: 1.5em;
-}
-
-.right-arrow:after {
-  content: '';
 	display: inline-block;
-  margin-top: 1.05em;
-  margin-left: -0.6em;
-  width: 1.4em;
-  height: 1.4em;
-  border-top: 0.5em solid #333;
-  border-right: 0.5em solid #333;
-  -moz-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+	width: 4em;
+	height: 4em;
+	border: 0.5em solid #333;
+	border-radius: 50%;
+	margin-left: 1.5em;
+}
+.right-arrow:after {
+	content: '';
+	display: inline-block;
+	margin-top: 1.05em;
+	margin-left: -0.6em;
+	width: 1.4em;
+	height: 1.4em;
+	border-top: 0.5em solid #333;
+	border-right: 0.5em solid #333;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 /* END OF ARROW CSS ===== */
 
 /* THIS IS THE CSS FOR OUR FOOTER */
-  @charset "UTF-8";
-.hero {
-	background: url("http://www.banksy-wallpaper.com/wallpapers/800x600/10-i-am-father.jpg") no-repeat center center;
-	background-size: cover;
-	height: 50vh;
-	overflow: hidden;
-}
-.hero h1, .hero h2 {
-	color: #fff;
-	text-shadow: 1px 1px 1px #000;
-	padding: 1rem 0 0 1rem;
-	margin: 0;
-}
-.row {
-	max-width: 1200px;
-}
 .footer {
 	background-color: #292c2f;
 	text-align: center;
 	font-size: 1.2rem;
 	padding: 4rem;
 }
-.footer .inline-list a {
-	display: inline-block;
-	width: 2rem;
-	height: 2rem;
-	background-color: #33383b;
-	border-radius: 2px;
-	font-size: 1.5rem;
-	color: #fff;
-	text-align: center;
-	line-height: 35px;
-	margin: 0 3px 0 0;
+.footer p.slogan {
+	color: #8d9093;
+	font-size: 1.8rem;
+	margin: 0 0 1rem;
 }
-.footer .contact {
-	list-style-type: none;
-	margin: 0;
-	text-align: left;
-	color: #fff;
-}
-.footer .contact li {
-	margin-bottom: 2rem;
-}
-.footer .contact li p {
-	padding-left: 5rem;
-}
-.footer .contact i {
-	position: absolute;
-	background-color: #33383b;
-	color: #fff;
-	font-size: 2rem;
-	border-radius: 50%;
-	line-height: 1;
-	margin: 0 0 0 -4rem;
-	vertical-align: middle;
-	padding: .25em .45em;
-}
-.footer .copywrite {
+.footer p.copywrite {
 	color: #8f9296;
 	font-size: 0.875rem;
-	margin: 0 0 1rem 0;
+	margin: 0;
 }
-.footer .about {
-	color: #92999f;
-	font-size: 0.875rem;
-	margin: 0 0 1rem 0;
-}
-.footer .footer-links a {
+.footer .links a {
 	list-style: none;
-	font-weight: normal;
-	color: #fff;
+	font-weight: bold;
+	color: #ffffff;
 	padding: 3rem 0 2rem;
 	margin: 0;
-	font-size: 0.875rem;
 }
-.footer .footer-links a::after {
+.footer .links a::after {
 	content: "•";
-	padding: 0 0.2rem 0 0.4rem;
-}
-.footer .footer-links a:last-child::after {
-	content: "";
 	padding: 0 0.4rem 0 0.8rem;
 }
-
-@media only screen and (min-width: 40.063em) {
-.footer p {
-	text-align: left;
-}
-.footer .social {
-	text-align: left;
-	margin: 0;
-}
-.footer .contact {
-	text-align: left;
-}
-.footer .contact > i {
-	margin-right: 1rem;
-}
+.footer .links a:last-child::after {
+	content: "";
+	padding: 0 0.4rem 0 0.8rem;
 }
 /* END OF FOOTER CODE */
 
@@ -233,10 +153,10 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 ====================== */ 
 
 .profile-card {
- padding: 1rem;
- box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
- margin: 2rem 0;
- background-color: #fff;
+	padding: 1rem;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	margin: 2rem 0;
+	background-color: #fff;
 }
 .profile-card img {
 	width: 8rem;
