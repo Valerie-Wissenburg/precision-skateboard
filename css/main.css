@@ -227,3 +227,8 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 }
 /* === END OF TEAM PAGE 
 ==================== */
+
+#map{
+	width:100%;
+	height:300px;
+}
