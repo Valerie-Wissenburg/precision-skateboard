@@ -237,4 +237,7 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 	border:none; 
 	overflow:hidden; 
 	width:100%;
+	allowTransparency: "true"; 
+	frameborder: "0";
+	scrolling:"no";
 }
