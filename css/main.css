@@ -1,9 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 /* ==== OUR CUSTOM CSS ================
 ==================================== */
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Slabo 27px', serif;
+  text-transform:uppercase;
+  text-align:center;
+}
 
 
 /* ==== NAV BAR =======================
@@ -50,7 +56,9 @@
 /* ==== HISTORY PAGE ==================
 ==================================== */
 
-
+.paragraph-styling-history p{
+	margin:1.5rem 6.5rem;
+}
 
 /* ==== END OF HISTORY PAGE
 ========================= */
