@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align:center;
 }
 
+.top-bar {
+	background-color:#d83a3a;
+}
 
 
 /* ==== NAV BAR =======================
@@ -113,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* THIS IS THE CSS FOR OUR FOOTER */
 .footer {
-	background-color: #292c2f;
+	background-color: #d83a3a;
 	text-align: center;
 	font-size: 1.2rem;
 	padding: 4rem;
