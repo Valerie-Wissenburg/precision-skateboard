@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
  
 /** Changes the hover state of dropdown menu items **/
 .top-bar-section ul.dropdown li a:hover:not(.button) {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 1);
 }
  
 /** IMPORTANT fill for the ul dropdown container **/
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 .footer .links a::after {
-	content: "•";
+	content: "";
 	padding: 0 0.4rem 0 0.8rem;
 }
 .footer .links a:last-child::after {
