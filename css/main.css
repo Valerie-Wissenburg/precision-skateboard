@@ -22,6 +22,21 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	z-index:1000;
 }
 
+#topbar-logo {
+	margin:0 0 0 -5em;
+}
+
+#hero-img{
+	width:100%;
+	margin-top:-5em;
+}
+
+#small-hero-img{
+	height: 50px;
+    margin: .25em;
+}
+
+
 
 /* ==== NAV BAR =======================
 ==================================== */
@@ -117,10 +132,6 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 /* ==== END OF NAV BAR =====
 ========================= */
 
-.hero-img{
-	width:100%;
-	margin:-10em;
-}
 
 /* THIS IS THE CSS FOR OUR FOOTER */
 .footer {
