@@ -36,7 +36,14 @@ h1, h2, h3, h4, h5, h6, .btn-style {
     margin: .25em;
 }
 
+.inline-list{
+	font-size:2em;
+	display:inline-block;
+}
 
+a:hover{
+	background-color:none;
+}
 
 /* ==== NAV BAR =======================
 ==================================== */
@@ -138,7 +145,7 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	background-color: #d83a3a;
 	text-align: center;
 	font-size: 1.2rem;
-	padding: 4rem;
+	padding-top: 2em;
 }
 .footer p.slogan {
 	color: #8d9093;
@@ -292,6 +299,8 @@ a:hover {
 	frameborder: "0";
 	scrolling:"no";
 }
+
+
 /* === END OF CONTACT PAGE 
 ======================= */
 

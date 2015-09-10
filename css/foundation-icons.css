@@ -307,7 +307,15 @@
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   text-decoration: inherit;
+  color:black;
 }
+
+.fi-social-facebook:hover,
+.fi-social-twitter:hover,
+.fi-social-instagram:hover{
+	color:#89c2c3;
+}
+	
 
 .fi-address-book:before { content: "\f100"; }
 .fi-alert:before { content: "\f101"; }
