@@ -26,17 +26,6 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	margin:0 0 0 -5em;
 }
 
-#hero-img{
-	width:100%;
-	margin-top:-5em;
-}
-
-#small-hero-img{
-	height: 50px;
-    margin: .25em;
-}
-
-
 
 /* ==== NAV BAR =======================
 ==================================== */
@@ -169,16 +158,35 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 
 /* ==== HOME PAGE =====================
 ==================================== */
+
 #heading-margin {
-	margin-top:-11em;
+	margin-top:-8em;
 	color:#D83C3C;
+	font-size:4em;
+}
+
+#full-width-hero {
+	width:100%;
+	height:48em;
+}
+
+#hero-img {
+	margin-top:-5em;
+}
+
+#small-hero-img{
+	height: 50px;
+    margin:.50em;
 }
 
 blockquote {
-	font-family: 'Slabo 27px', serif;
+	font-family:'Slabo 27px', serif;
+	font-size:2em;
 	text-transform:uppercase;
 	text-align:center;
-	color:#89c2c3;
+	color:#D83C3C;
+	margin:.3em -7.5em 3em -7.5em;
+	border:0;
 }
 
 
