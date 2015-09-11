@@ -350,7 +350,22 @@ a:hover {
 // Small screens
 @media only screen { } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) { 
+	#full-width-hero {
+	width:100%;
+	height:24em;
+}
+
+	#heading-margin {
+	margin-top:-10em;
+	color:#D83C3C;
+	font-size:1.5em;
+}
+	
+	blockquote {
+		font-size:.9em;
+}
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
