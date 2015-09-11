@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	margin:0 0 0 -5em;
 }
 
-<<<<<<< HEAD
 #hero-img{
 	width:100%;
 	margin-top:-5em;
@@ -45,8 +44,6 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 a:hover{
 	background-color:none;
 }
-=======
->>>>>>> origin/master
 
 /* ==== NAV BAR =======================
 ==================================== */
@@ -144,6 +141,12 @@ a:hover{
 
 
 /* THIS IS THE CSS FOR OUR FOOTER */
+
+.hover-footer {
+	border: 5px solid #FFFFFF;
+	padding: 0 .3em;
+}
+
 .footer {
 	background-color: #d83a3a;
 	text-align: center;
@@ -151,12 +154,12 @@ a:hover{
 	padding-top: 2em;
 }
 .footer p.slogan {
-	color: #8d9093;
+	color:#FFFFFF;
 	font-size: 1.8rem;
 	margin: 0 0 1rem;
 }
 .footer p.copywrite {
-	color: #8f9296;
+	color: #89c2c3;
 	font-size: 0.875rem;
 	margin: 0;
 }
@@ -164,7 +167,7 @@ a:hover{
 	list-style: none;
 	font-weight: bold;
 	color: #ffffff;
-	padding: 3rem 0 2rem;
+	padding:1em 1em;
 	margin: 0;
 }
 .footer .links a::after {
