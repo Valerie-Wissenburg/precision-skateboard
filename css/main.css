@@ -153,6 +153,13 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	content: "";
 	padding: 0 0.2rem 0 0.8rem;
 }
+footer a i:hover path  {
+	fill: white;
+}
+.footer .links a:hover {
+	color:#89c2c3;
+}
+
 /* END OF FOOTER CODE */
 
 /* ==== HOME PAGE =====================
@@ -303,9 +310,8 @@ form {
 	padding: .8em 8em;
 	background-color: #d83a3a;
 }
-a:hover {
+button:hover, button:focus, .button:hover, .button:focus {
 	background-color: #89c2c3;
-	width: 1.4em;
 }
 #map {
 	margin: 7.2em 0 1em 0;
@@ -384,3 +390,5 @@ form {
 } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
  // XXLarge screens @media only screen and (min-width: 120.063em) {
 } /* min-width 1921px, xxlarge screens */
+
+
