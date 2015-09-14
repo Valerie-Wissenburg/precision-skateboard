@@ -20,13 +20,14 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	z-index: 1000;
 }
 #topbar-logo {
-	margin: 0 0 0 -5em;
+	width:auto;
+	height:10em;
 }
 #hero-img {
 	width: 100%;
 	margin-top: -5em;
 }
-#small-hero-img {
+#small-topbar-img {
 	height: 50px;
 	margin: .25em;
 }
@@ -190,7 +191,7 @@ blockquote {
 ==================================== */
 
 .paragraph-styling-history p {
-	margin: 1.5rem 6.5rem;
+	margin: .5rem .5rem;
 }
 /* ==== END OF HISTORY PAGE
 ========================= */
