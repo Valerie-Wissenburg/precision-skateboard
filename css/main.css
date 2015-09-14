@@ -6,136 +6,112 @@
 ==================================== */
 
 h1, h2, h3, h4, h5, h6, .btn-style {
-  font-family: 'Slabo 27px', serif;
-  text-transform:uppercase;
-  text-align:center;
+	font-family: 'Slabo 27px', serif;
+	text-transform: uppercase;
+	text-align: center;
 }
-
 .top-bar {
-	background-color:#d83a3a;
+	background-color: #d83a3a;
 }
-
-.nav{
-	position:fixed;
+.nav {
+	position: fixed;
 	left: 0;
-	right:0;
-	z-index:1000;
+	right: 0;
+	z-index: 1000;
 }
-
 #topbar-logo {
-	margin:0 0 0 -5em;
+	margin: 0 0 0 -5em;
 }
-
-#hero-img{
-	width:100%;
-	margin-top:-5em;
+#hero-img {
+	width: 100%;
+	margin-top: -5em;
 }
-
-#small-hero-img{
+#small-hero-img {
 	height: 50px;
-    margin: .25em;
+	margin: .25em;
 }
-
-.inline-list{
-	font-size:2em;
-	display:inline-block;
+.inline-list {
+	font-size: 2em;
+	display: inline-block;
 }
-
-a:hover{
-	background-color:none;
+a:hover {
+	background-color: none;
 }
-
 /* ==== NAV BAR =======================
 ==================================== */
 
 /** Changes background color, height and margin of the border **/
 .top-bar {
-    background: none;
-    height: 58px;
-    line-height: 58px;
-    margin-bottom:0;
+	background: none;
+	height: 58px;
+	line-height: 58px;
+	margin-bottom: 0;
 }
- 
 /** Removes black background on menu bar **/
 .top-bar-section ul {
-    background: none;
-    text-transform: uppercase;
+	background: none;
+	text-transform: uppercase;
 }
- 
 /** Removes black background on menu item **/
 .top-bar-section li a:not(.button) {
-    background: none;
-    line-height: 58px;
-    padding: 0 27px;
+	background: none;
+	line-height: 58px;
+	padding: 0 27px;
 }
-
 /** Changes the active menu item from default black to a gradient **/
 .top-bar-section ul li.active > a {
-    background:  rgb(0, 0, 0);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
-    color: #fff;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
+	color: #fff;
 }
- 
 /** Changes the hover state of non active menu items **/
 .top-bar-section li:hover a {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
-    color: #fff;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%) repeat scroll 0 0 transparent;
+	color: #fff;
 }
- 
 /** Changes non active menu items text color to white **/
 .top-bar-section ul li > a {
-    color: #ffffff;
+	color: #ffffff;
 }
- 
 /** Changes the hover state of dropdown menu items **/
 .top-bar-section ul.dropdown li a:hover:not(.button) {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 1);
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 1);
 }
- 
 /** IMPORTANT fill for the ul dropdown container **/
 .top-bar-section ul.dropdown {
-    background: #000000;
-    color: #fff;
+	background: #000000;
+	color: #fff;
 }
- 
 /** This fixes the position and the color of the dropdown arrow **/
 .top-bar-section .has-dropdown > a:after {
-    border-color: rgba(0, 0, 0, 1) transparent transparent;
-    margin-top: 2.5px;
+	border-color: rgba(0, 0, 0, 1) transparent transparent;
+	margin-top: 2.5px;
 }
 
 @media only screen and (max-width: 942px) {
- 
-    /* Makes the responsive menu fit in the navigation container and change its background to black */
-    .top-bar ul {
-        background-color: rgba(0, 0, 0, 1);
-        padding-bottom: 13px;
-    }
- 
-    /* Change non active menu item color to black */
-    .top-bar-section ul li > a {
-        color: #fff;
-    }
- 
-    /* Gives the dropdown ul a black fill */
-    .top-bar-section ul {
-        background: #000;
-    }
- 
-    /* Give the BACK button after going in a submenu the appropriate filling */
-    .top-bar-section .dropdown li.title h5 a {
-        line-height: 57px;
-    }
- 
-    /* This fixes the position and the color of the dropdown arrow */
-    .top-bar-section .has-dropdown > a:after {
-        border-color: rgba(255, 255, 255, 1) transparent transparent;
-        margin-top: 2.5px;
-    }
- 
+/* Makes the responsive menu fit in the navigation container and change its background to black */
+.top-bar ul {
+	background-color: rgba(0, 0, 0, 1);
+	padding-bottom: 13px;
+}
+/* Change non active menu item color to black */
+.top-bar-section ul li > a {
+	color: #fff;
+}
+/* Gives the dropdown ul a black fill */
+.top-bar-section ul {
+	background: #000;
+}
+/* Give the BACK button after going in a submenu the appropriate filling */
+.top-bar-section .dropdown li.title h5 a {
+	line-height: 57px;
+}
+/* This fixes the position and the color of the dropdown arrow */
+.top-bar-section .has-dropdown > a:after {
+	border-color: rgba(255, 255, 255, 1) transparent transparent;
+	margin-top: 2.5px;
+}
 } /* end media query */
-
-
 /* ==== END OF NAV BAR =====
 ========================= */
 
@@ -143,40 +119,37 @@ a:hover{
 /* THIS IS THE CSS FOR OUR FOOTER */
 
 .hover-footer {
-	border: 5px solid #FFFFFF;
 	padding: 0 .3em;
 }
-
 .footer {
 	background-color: #d83a3a;
 	text-align: center;
 	font-size: 1.2rem;
-	padding-top: 2em;
+	margin-top:2em;
 }
 .footer p.slogan {
-	color:#FFFFFF;
+	color: #FFFFFF;
 	font-size: 1.8rem;
-	margin: 0 0 1rem;
+	margin: 0 0 .5rem;
+	padding-top:1.3em;
 }
 .footer p.copywrite {
 	color: #89c2c3;
 	font-size: 0.875rem;
-	margin: 0;
 }
 .footer .links a {
 	list-style: none;
 	font-weight: bold;
 	color: #ffffff;
-	padding:1em 1em;
 	margin: 0;
 }
 .footer .links a::after {
 	content: "";
-	padding: 0 0.4rem 0 0.8rem;
+	padding: 0 0.2rem 0 0.8rem;
 }
 .footer .links a:last-child::after {
 	content: "";
-	padding: 0 0.4rem 0 0.8rem;
+	padding: 0 0.2rem 0 0.8rem;
 }
 /* END OF FOOTER CODE */
 
@@ -184,36 +157,30 @@ a:hover{
 ==================================== */
 
 #heading-margin {
-	margin-top:-8em;
-	color:#D83C3C;
-	font-size:4em;
+	margin-top: -8em;
+	color: #D83C3C;
+	font-size: 4em;
 }
-
 #full-width-hero {
-	width:100%;
-	height:48em;
+	width: 100%;
+	height: 48em;
 }
-
 #hero-img {
-	margin-top:-5em;
+	margin-top: -5em;
 }
-
-#small-hero-img{
+#small-hero-img {
 	height: 50px;
-    margin:.50em;
+	margin: .50em;
 }
-
 blockquote {
-	font-family:'Slabo 27px', serif;
-	font-size:2em;
-	text-transform:uppercase;
-	text-align:center;
-	color:#D83C3C;
-	margin:.3em -7.5em 3em -7.5em;
-	border:0;
+	font-family: 'Slabo 27px', serif;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #D83C3C;
+	margin: .3em -7.5em 3em -7.5em;
+	border: 0;
 }
-
-
 /* ==== END OF HOME PAGE
 ========================= */
 
@@ -221,10 +188,9 @@ blockquote {
 /* ==== HISTORY PAGE ==================
 ==================================== */
 
-.paragraph-styling-history p{
-	margin:1.5rem 6.5rem;
+.paragraph-styling-history p {
+	margin: 1.5rem 6.5rem;
 }
-
 /* ==== END OF HISTORY PAGE
 ========================= */
 
@@ -236,7 +202,7 @@ blockquote {
 	padding: 1rem;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	margin: 2rem 0;
-	background-color:#fff;
+	background-color: #fff;
 }
 .profile-card img {
 	width: 8rem;
@@ -309,40 +275,40 @@ blockquote {
 
 /* ==== CONTACT PAGE ==================
 ==================================== */
+
+#contact-title-margin{
+	margin-top:1.5em;
+}
 form {
 	background-color: #d83a3a;
-	margin-bottom:5em;
-	width:100%;
-	height:15em;
+	margin-bottom: 5em;
+	width: 100%;
+	height: 15em;
 	text-decoration: none;
-	padding:2em 1.5em 4em 1.5em;
+	padding: 2em 1.5em 4em 1.5em;
 }
-
 .btn-style {
-	margin:1.5em 0 4em 0;
-	padding:.8em 8em;
-	background-color:#d83a3a;
+	margin: 1.5em 0 4em 0;
+	padding: .8em 8em;
+	background-color: #d83a3a;
 }
-
 a:hover {
-	background-color:#89c2c3;
+	background-color: #89c2c3;
+	width: 1.4em;
 }
-
-#map{
-	margin:4em 0 1em 0;
-	width:100%;
-	height:250px;
+#map {
+	margin: 7.2em 0 1em 0;
+	width: 100%;
+	height: 250px;
 }
-
-.snapwidget-widget{
-	border:none; 
-	overflow:hidden; 
-	width:100%;
-	allowTransparency: "true"; 
+.snapwidget-widget {
+	border: none;
+	overflow: hidden;
+	width: 100%;
+	allowTransparency: "true";
 	frameborder: "0";
-	scrolling:"no";
+	scrolling: "no";
 }
-
 
 /* === END OF CONTACT PAGE 
 ======================= */
@@ -350,40 +316,57 @@ a:hover {
 
 
 /*======= media queries =======*/
-// Small screens
-@media only screen { } /* Define mobile styles */
+// Small screens @media only screen {
+} /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { 
-	#full-width-hero {
-	width:100%;
-	height:24em;
+@media only screen and (max-width: 40em) {
+#full-width-hero {
+	width: 100%;
+	height: 24em;
+}
+#heading-margin {
+	margin-top: -10em;
+	color: #D83C3C;
+	font-size: 1.5em;
+}
+blockquote {
+	font-size: .9em;
+}
+#contact-title-margin{
+	margin-top:2em;
+}
+form {
+	height: 12em;
+	margin-top:1.5em;
+	padding: 2em 1.5em 3.8em 1.5em;
+}
+.btn-style {
+	margin-top:2.5em;
+}
+#map {
+	margin:1.5em 0 1em 0;
+	width: 100%;
+	height: 250px;
+}
+#address {
+	margin-bottom:3em;
 }
 
-	#heading-margin {
-	margin-top:-10em;
-	color:#D83C3C;
-	font-size:1.5em;
-}
-	
-	blockquote {
-		font-size:.9em;
-}
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+ // Medium screens @media only screen and (min-width: 40.063em) {
+} /* min-width 641px, medium screens */
 
-// Medium screens
-@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+ // Large screens @media only screen and (min-width: 64.063em) {
+} /* min-width 1025px, large screens */
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+ // XLarge screens @media only screen and (min-width: 90.063em) {
+} /* min-width 1441px, xlarge screens */
 
-// Large screens
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
-
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
-
-// XLarge screens
-@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
-
-@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-
-// XXLarge screens
-@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+ // XXLarge screens @media only screen and (min-width: 120.063em) {
+} /* min-width 1921px, xxlarge screens */
