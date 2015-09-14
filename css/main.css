@@ -35,8 +35,9 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	display: inline-block;
 }
 a:hover {
-	background-color: none;
+	color:#89c2c3;
 }
+
 /* ==== NAV BAR =======================
 ==================================== */
 
@@ -197,7 +198,13 @@ blockquote {
 
 /* ==== TEAM RIDERS PAGE ==============
 ==================================== */ 
-
+.subheader {
+	color:#89c2c3;
+}
+.fi-social-instagram {
+	color:#D83A3A;
+	list-style:center;
+}
 .profile-card {
 	padding: 1rem;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
