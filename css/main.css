@@ -118,10 +118,10 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 }
 } /* end media query */
 
-li.blog-btn-red {
-	background-color:#d83a3a;
-	margin-top:5em;
-}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: #D83A3A;}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    background:#d89c2c3;}
 
 /* ==== END OF NAV BAR =====
 ========================= */
