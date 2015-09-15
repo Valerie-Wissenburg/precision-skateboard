@@ -178,7 +178,7 @@ footer a i:hover path {
 	margin-top: -5em;
 }
 .side-margin-instagram{
-	margin-left:4em;
+	margin-left:1em;
 }
 #small-hero-img {
 	height: 50px;
@@ -215,6 +215,7 @@ blockquote {
 .fi-social-instagram {
 	color:#D83A3A;
 	list-style:center;
+	margin:0 auto;
 }
 .profile-card {
 	padding: 1rem;
@@ -223,7 +224,7 @@ blockquote {
 	background-color: #fff;
 }
 .profile-card img {
-	width: 8rem;
+	width: 14rem;
 	display: block;
 	margin: 2rem auto;
 	text-align: center;
