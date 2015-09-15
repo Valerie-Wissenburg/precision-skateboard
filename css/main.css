@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 }
 #small-topbar-img {
 	height: 50px;
-	margin: .25em;
+	margin: 0;
 }
 .inline-list {
 	font-size: 2em;
