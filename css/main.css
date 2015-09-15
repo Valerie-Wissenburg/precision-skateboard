@@ -175,13 +175,13 @@ footer a i:hover path {
 ==================================== */
 
 #heading-margin {
-	margin-top: -8em;
+	margin-top: -8rem;
 	color: #D83C3C;
 	font-size: 4em;
 }
 #full-width-hero {
 	width: 100%;
-	height: 48em;
+	height: auto;
 }
 #hero-img {
 	margin-top: -5em;
@@ -352,7 +352,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	height: 24em;
 }
 #heading-margin {
-	margin-top: -10em;
+	margin-top: -5rem;
 	color: #D83C3C;
 	font-size: 1.5em;
 }
