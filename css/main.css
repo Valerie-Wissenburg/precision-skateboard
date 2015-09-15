@@ -19,6 +19,9 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	right: 0;
 	z-index: 1000;
 }
+.nav .columns {
+	padding:0;
+}
 #topbar-logo {
 	width:auto;
 	height:10em;
