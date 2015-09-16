@@ -45,8 +45,7 @@
 			
 		<h1>Your message has been sent!</h1><br />
         
-        <br /><br /><br />
-        <br /><br /><br />
+        <br /><br />
 		
 		<h2><a href="../contact.html">Back to Contact Form</a><h2>
 	
@@ -67,7 +66,7 @@
         </ul>
       </nav>
       <p class="links"> <a href="../index.html">Home</a> <a href="../history.html">History</a> <a href="../team-page.html">Team</a> <a href="../contact.html">Contact</a> <a href="http://www.precisionskateboard.com/">Blog</a> </p>
-      <p class="copywrite">© Precision Skateboards 2015</p>
+      <p class="copywrite">&copy; Precision Skateboards 2015</p>
     </div>
   </div>
 </footer>
