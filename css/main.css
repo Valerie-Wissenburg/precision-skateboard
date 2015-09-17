@@ -33,14 +33,14 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	z-index: 1000;
 }
 .nav .columns {
-	padding:0;
+	padding: 0;
 }
 #topbar-logo {
-	width:auto;
-	height:10em;
+	width: auto;
+	height: 10em;
 }
 #hero-img {
-	padding:0;
+	padding: 0;
 	margin-top: -5em;
 }
 #small-topbar-img {
@@ -52,14 +52,11 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	display: inline-block;
 }
 #history-link {
-	color:#89c2c3;
+	color: #89c2c3;
 }
-
 .fi-social-facebook:hover:before, .fi-social-twitter:hover:before, .fi-social-instagram:hover:before, .fi-social-youtube:hover:before {
-	color:#89c2c3;
+	color: #89c2c3;
 }
-
-
 /* ==== NAV BAR =======================
 ==================================== */
 
@@ -135,12 +132,12 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	margin-top: 2.5px;
 }
 } /* end media query */
-
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-    background: #D83A3A;}
+	background: #D83A3A;
+}
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background:#89c2c3;}
-
+	background: #89c2c3;
+}
 /* ==== END OF NAV BAR =====
 ========================= */
 
@@ -154,16 +151,16 @@ h1, h2, h3, h4, h5, h6, .btn-style {
 	background-color: #d83a3a;
 	text-align: center;
 	font-size: 1.2rem;
-	margin-top:2em;
+	margin-top: 2em;
 }
 .footer p.slogan {
 	color: #FFFFFF;
 	font-size: 1.8rem;
 	margin: 0 0 .5rem;
-	padding-top:1.3em;
+	padding-top: 1.3em;
 }
 .footer p.copywrite {
-	color:#89c2c3;
+	color: #89c2c3;
 	font-size: 0.875rem;
 }
 .footer .links a {
@@ -184,9 +181,8 @@ footer a i:hover path {
 	fill: white;
 }
 .footer .links a:hover {
-	color:#89c2c3;
+	color: #89c2c3;
 }
-
 /* END OF FOOTER CODE */
 
 /* ==== HOME PAGE =====================
@@ -204,8 +200,8 @@ footer a i:hover path {
 #hero-img {
 	margin-top: -5em;
 }
-.side-margin-instagram{
-	margin-left:1em;
+.side-margin-instagram {
+	margin-left: 1em;
 }
 #small-hero-img {
 	height: 50px;
@@ -227,11 +223,12 @@ blockquote {
 /* ==== HISTORY PAGE ==================
 ==================================== */
 
-.paragraph-styling-history p {
-	margin:1em 1em 1em 3em;
+.history-center-img {
+	margin: 0 auto;
 }
-
-
+.paragraph-styling-history {
+	margin: 1em 1em 1em 1em;
+}
 /* ==== END OF HISTORY PAGE
 ========================= */
 
@@ -239,12 +236,12 @@ blockquote {
 /* ==== TEAM RIDERS PAGE ==============
 ==================================== */ 
 .subheader {
-	color:#89c2c3;
+	color: #89c2c3;
 }
 .fi-social-instagram {
-	color:#D83A3A;
-	list-style:center;
-	margin:0 auto;
+	color: #D83A3A;
+	list-style: center;
+	margin: 0 auto;
 }
 .profile-card {
 	padding: 1rem;
@@ -324,8 +321,8 @@ blockquote {
 /* ==== CONTACT PAGE ==================
 ==================================== */
 
-#contact-title-margin{
-	margin-top:2.5em;
+#contact-title-margin {
+	margin-top: 2.5em;
 }
 form {
 	background-color: #d83a3a;
@@ -379,29 +376,28 @@ button:hover, button:focus, .button:hover, .button:focus {
 blockquote {
 	font-size: .9em;
 }
-#contact-title-margin{
-	margin-top:2em;
+#contact-title-margin {
+	margin-top: 2em;
 }
 .side-margin-instagram {
-	margin:1em 0 0 0;
+	margin: 1em 0 0 0;
 }
 form {
 	height: 12em;
-	margin-top:1.5em;
+	margin-top: 1.5em;
 	padding: 2em 1.5em 3.8em 1.5em;
 }
 .btn-style {
-	margin-top:2.5em;
+	margin-top: 2.5em;
 }
 #map {
-	margin:1.5em 0 1em 0;
+	margin: 1.5em 0 1em 0;
 	width: 100%;
 	height: 250px;
 }
 #address {
-	margin-bottom:3em;
+	margin-bottom: 3em;
 }
-
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
  // Medium screens @media only screen and (min-width: 40.063em) {
 } /* min-width 641px, medium screens */
@@ -420,5 +416,3 @@ form {
 } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
  // XXLarge screens @media only screen and (min-width: 120.063em) {
 } /* min-width 1921px, xxlarge screens */
-
-
