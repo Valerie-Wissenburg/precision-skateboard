@@ -4,12 +4,13 @@
 /* ==== TABLE OF CONTENTS ================
 ==========================================
 
-1.0 
-2.0
-3.0
-4.0
-5.0
-6.0
+1.0 NAV BAR
+2.0 FOOTER
+3.0 HOME PAGE
+4.0 HISTORY PAGE
+5.0 TEAM RIDERS PAGE
+6.0 CONTACT PAGE
+7.0 MEDIA QUERIES
 
 ==========================================
 ======= END =========================== */
@@ -65,8 +66,9 @@ h6,
 .fi-social-youtube:hover:before {
     color: #89c2c3;
 }
-/* ==== NAV BAR =======================
-==================================== */
+/* ==== 1.0 NAV BAR =======================
+======================================== */
+
 /** Changes background color, height and margin of the border **/
 
 .top-bar {
@@ -123,37 +125,6 @@ h6,
     border-color: rgba(0, 0, 0, 1) transparent transparent;
     margin-top: 2.5px;
 }
-@media only screen and (max-width: 942px) {
-    /* Makes the responsive menu fit in the navigation container and change its background to black */
-    
-    .top-bar ul {
-        background-color: rgba(0, 0, 0, 1);
-        padding-bottom: 13px;
-    }
-    /* Change non active menu item color to black */
-    
-    .top-bar-section ul li > a {
-        color: #fff;
-    }
-    /* Gives the dropdown ul a black fill */
-    
-    .top-bar-section ul {
-        background: #000;
-    }
-    /* Give the BACK button after going in a submenu the appropriate filling */
-    
-    .top-bar-section .dropdown li.title h5 a {
-        line-height: 57px;
-    }
-    /* This fixes the position and the color of the dropdown arrow */
-    
-    .top-bar-section .has-dropdown > a:after {
-        border-color: rgba(255, 255, 255, 1) transparent transparent;
-        margin-top: 2.5px;
-    }
-}
-/* end media query */
-
 .top-bar-section li.active:not(.has-form) a:not(.button) {
     background: #D83A3A;
 }
@@ -162,7 +133,9 @@ h6,
 }
 /* ==== END OF NAV BAR =====
 ========================= */
-/* THIS IS THE CSS FOR OUR FOOTER */
+
+/* =========== 2.0 FOOTER CSS ========= 
+=====================================*/
 
 .hover-footer {
     padding: 0 .3em;
@@ -203,9 +176,12 @@ footer a i:hover path {
 .footer .links a:hover {
     color: #89c2c3;
 }
-/* END OF FOOTER CODE */
-/* ==== HOME PAGE =====================
-==================================== */
+/* END OF FOOTER CODE 
+===================*/
+
+
+/* ==== 3.0 HOME PAGE =====================
+======================================== */
 
 #heading-margin {
     margin-top: -8rem;
@@ -237,8 +213,10 @@ blockquote {
 }
 /* ==== END OF HOME PAGE
 ========================= */
-/* ==== HISTORY PAGE ==================
-==================================== */
+
+
+/* ==== 4.0 HISTORY PAGE ==================
+======================================== */
 
 .history-center-img {
     margin: 0 auto;
@@ -248,8 +226,9 @@ blockquote {
 }
 /* ==== END OF HISTORY PAGE
 ========================= */
-/* ==== TEAM RIDERS PAGE ==============
-==================================== */
+
+/* ==== 5.0 TEAM RIDERS PAGE ==============
+======================================== */
 
 .subheader {
     color: #89c2c3;
@@ -333,9 +312,10 @@ blockquote {
 }
 /* === END OF TEAM PAGE 
 ==================== */
-/* ==== CONTACT PAGE ==================
-==================================== */
 
+
+/* ==== 6.0 CONTACT PAGE ==================
+======================================== */
 #contact-title-margin {
     margin-top: 2.5em;
 }
@@ -371,16 +351,20 @@ button:focus,
     frameborder: "0";
     scrolling: "no";
 }
-/* === END OF CONTACT PAGE 
-======================= */
-/*======= media queries =======*/
+/* === END OF CONTACT PAGE ===== 
+============================= */
+
+
+
+
+/*======= 7.0 MEDIA QUERIES =======*/
 
 // Small screens @media only screen {
 }
 /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
-    /* ===== HOME =====
+/* ===== HOME =====
 ================ */
     
     #full-width-hero {
@@ -399,7 +383,7 @@ button:focus,
     .side-margin-instagram {
         margin: 1em 0 0 0;
     }
-    /* ===== CONTACT =====
+/* ===== CONTACT =====
 =================== */
     
     #contact-title-margin {
@@ -428,6 +412,36 @@ button:focus,
 }
 /* min-width 641px, medium screens */
 
+@media only screen and (max-width: 942px) {
+    /* Makes the responsive menu fit in the navigation container and change its background to black */
+    
+    .top-bar ul {
+        background-color: rgba(0, 0, 0, 1);
+        padding-bottom: 13px;
+    }
+    /* Change non active menu item color to black */
+    
+    .top-bar-section ul li > a {
+        color: #fff;
+    }
+    /* Gives the dropdown ul a black fill */
+    
+    .top-bar-section ul {
+        background: #000;
+    }
+    /* Give the BACK button after going in a submenu the appropriate filling */
+    
+    .top-bar-section .dropdown li.title h5 a {
+        line-height: 57px;
+    }
+    /* This fixes the position and the color of the dropdown arrow */
+    
+    .top-bar-section .has-dropdown > a:after {
+        border-color: rgba(255, 255, 255, 1) transparent transparent;
+        margin-top: 2.5px;
+    }
+}
+
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {}
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
@@ -448,3 +462,4 @@ button:focus,
 // XXLarge screens @media only screen and (min-width: 120.063em) {
 }
 /* min-width 1921px, xxlarge screens */
+
